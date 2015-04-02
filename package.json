@@ -1,0 +1,22 @@
+{
+  "name": "testsample",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "testschema.js",
+  "scripts": {
+    "test": "node testschema.js"
+  },
+  "keywords": [
+    "test",
+    "aerospike"
+  ],
+  "author": "ds",
+  "license": "ISC",
+  "devDependencies": {
+    "aerospike": "^1.0.35"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "wait.for": "^0.6.6"
+  }
+}
